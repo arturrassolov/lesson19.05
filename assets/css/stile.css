@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: bisque;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 300px;
+  min-height: 300px;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid grey;
+}
+form>*{
+  font-size: 16px;
+  padding: 0.3em 0.5em;
+}
