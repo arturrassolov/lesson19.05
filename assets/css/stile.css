@@ -14,4 +14,15 @@ body{
   width: 50%;
   object-fit: cover;
   clip-path: polygon(0 0, 100% 0, 73% 100%, 0% 100%);
+  filter: grayscale(80%);
+  transition: filter 1s;
+}
+.user-card-avatar:hover{
+filter: grayscale(0%);
+}
+.user-card-info{
+  margin: auto;
+}
+.social-item{
+  display: inline-block;
 }
