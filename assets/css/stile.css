@@ -1,21 +1,17 @@
-*{
-  box-sizing: border-box;
-}
 body{
-  background-color: bisque;
+  background-color: #ccc;
 }
-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  width: 300px;
-  min-height: 300px;
-  margin: auto;
-  padding: 15px;
-  border: 1px solid grey;
+.users-cards{
+  text-align: center;
 }
-form>*{
-  font-size: 16px;
-  padding: 0.3em 0.5em;
+.user-card{
+  display: inline-flex;
+  max-width: 540px;
+  min-height: 350px;
+  background-color: white;
+}
+.user-card-avatar{
+  width: 50%;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 73% 100%, 0% 100%);
 }
